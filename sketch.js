@@ -24,19 +24,19 @@ var bellSound;
 
 function preload(){
   
-  roadImage = loadImage("images/Road.png");
-  gameOverImage = loadImage("images/gameOver.png");  
-  racerImage1=loadAnimation("images/mainPlayer1.png","images/mainPlayer2.png");
-  racerImage2=loadAnimation("images/mainPlayer3.png");  
-  opponentPink1Image=loadAnimation("images/opponent1.png","images/opponent2.png");
-  opponentPink2Image=loadAnimation("images/opponent3.png");
-  opponentYellow1Image=loadAnimation("images/opponent4.png","images/opponent5.png");
-  opponentYellow2Image=loadAnimation("images/opponent6.png");
-  opponentRed1Image=loadAnimation("images/opponent7.png","images/opponent8.png");
-  opponentRed2Image=loadAnimation("images/opponent9.png");
-  obstacle1Image=loadAnimation("images/obstacle1.png");
-  obstacle2Image=loadAnimation("images/obstacle2.png");
-  obstacle3Image=loadAnimation("images/obstacle3.png");
+  roadImage = loadImage("Road.png");
+  gameOverImage = loadImage("gameOver.png");  
+  racerImage1=loadAnimation("mainPlayer1.png","mainPlayer2.png");
+  racerImage2=loadAnimation("mainPlayer3.png");  
+  opponentPink1Image=loadAnimation("opponent1.png","opponent2.png");
+  opponentPink2Image=loadAnimation("opponent3.png");
+  opponentYellow1Image=loadAnimation("opponent4.png","opponent5.png");
+  opponentYellow2Image=loadAnimation("opponent6.png");
+  opponentRed1Image=loadAnimation("opponent7.png","opponent8.png");
+  opponentRed2Image=loadAnimation("opponent9.png");
+  obstacle1Image=loadAnimation("obstacle1.png");
+  obstacle2Image=loadAnimation("obstacle2.png");
+  obstacle3Image=loadAnimation("obstacle3.png");
 }
 
 function setup(){
